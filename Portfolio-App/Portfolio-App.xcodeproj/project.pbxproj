@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		4915DB1A2C580AC200AB8E68 /* Portfolio_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB192C580AC200AB8E68 /* Portfolio_AppApp.swift */; };
-		4915DB1C2C580AC200AB8E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB1B2C580AC200AB8E68 /* ContentView.swift */; };
+		4915DB1C2C580AC200AB8E68 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB1B2C580AC200AB8E68 /* PortfolioView.swift */; };
 		4915DB1E2C580AC400AB8E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4915DB1D2C580AC400AB8E68 /* Assets.xcassets */; };
 		4915DB212C580AC400AB8E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4915DB202C580AC400AB8E68 /* Preview Assets.xcassets */; };
+		4915DB282C58BC2500AB8E68 /* SkillsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB272C58BC2500AB8E68 /* SkillsModel.swift */; };
+		4915DB2A2C58BE3900AB8E68 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB292C58BE3800AB8E68 /* ProfileViewModel.swift */; };
+		4915DB2C2C58CA2100AB8E68 /* ExperienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB2B2C58CA2100AB8E68 /* ExperienceModel.swift */; };
+		4915DB2E2C59043300AB8E68 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB2D2C59043300AB8E68 /* HeaderView.swift */; };
+		4915DB302C5908B600AB8E68 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB2F2C5908B600AB8E68 /* SkillView.swift */; };
+		4915DB322C5908ED00AB8E68 /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB312C5908ED00AB8E68 /* ExperiencesView.swift */; };
+		4915DB372C590E3B00AB8E68 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915DB362C590E3B00AB8E68 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4915DB162C580AC200AB8E68 /* Portfolio-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portfolio-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4915DB192C580AC200AB8E68 /* Portfolio_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio_AppApp.swift; sourceTree = "<group>"; };
-		4915DB1B2C580AC200AB8E68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4915DB1B2C580AC200AB8E68 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		4915DB1D2C580AC400AB8E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4915DB202C580AC400AB8E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4915DB272C58BC2500AB8E68 /* SkillsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsModel.swift; sourceTree = "<group>"; };
+		4915DB292C58BE3800AB8E68 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		4915DB2B2C58CA2100AB8E68 /* ExperienceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceModel.swift; sourceTree = "<group>"; };
+		4915DB2D2C59043300AB8E68 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4915DB2F2C5908B600AB8E68 /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		4915DB312C5908ED00AB8E68 /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
+		4915DB362C590E3B00AB8E68 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				4915DB192C580AC200AB8E68 /* Portfolio_AppApp.swift */,
-				4915DB1B2C580AC200AB8E68 /* ContentView.swift */,
 				4915DB1D2C580AC400AB8E68 /* Assets.xcassets */,
+				4915DB382C59101B00AB8E68 /* Utility */,
+				4915DB352C59097500AB8E68 /* Screens */,
 				4915DB1F2C580AC400AB8E68 /* Preview Content */,
+				4915DB332C59095800AB8E68 /* DataModel */,
 			);
 			path = "Portfolio-App";
 			sourceTree = "<group>";
@@ -65,6 +81,35 @@
 				4915DB202C580AC400AB8E68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4915DB332C59095800AB8E68 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4915DB272C58BC2500AB8E68 /* SkillsModel.swift */,
+				4915DB2B2C58CA2100AB8E68 /* ExperienceModel.swift */,
+				4915DB292C58BE3800AB8E68 /* ProfileViewModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		4915DB352C59097500AB8E68 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4915DB1B2C580AC200AB8E68 /* PortfolioView.swift */,
+				4915DB2D2C59043300AB8E68 /* HeaderView.swift */,
+				4915DB2F2C5908B600AB8E68 /* SkillView.swift */,
+				4915DB312C5908ED00AB8E68 /* ExperiencesView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4915DB382C59101B00AB8E68 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4915DB362C590E3B00AB8E68 /* Constants.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4915DB1C2C580AC200AB8E68 /* ContentView.swift in Sources */,
+				4915DB1C2C580AC200AB8E68 /* PortfolioView.swift in Sources */,
+				4915DB2E2C59043300AB8E68 /* HeaderView.swift in Sources */,
+				4915DB2C2C58CA2100AB8E68 /* ExperienceModel.swift in Sources */,
+				4915DB282C58BC2500AB8E68 /* SkillsModel.swift in Sources */,
+				4915DB302C5908B600AB8E68 /* SkillView.swift in Sources */,
+				4915DB2A2C58BE3900AB8E68 /* ProfileViewModel.swift in Sources */,
+				4915DB322C5908ED00AB8E68 /* ExperiencesView.swift in Sources */,
 				4915DB1A2C580AC200AB8E68 /* Portfolio_AppApp.swift in Sources */,
+				4915DB372C590E3B00AB8E68 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
